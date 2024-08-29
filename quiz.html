@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Math Quiz</title>
+    <style>
+        /* Internal CSS */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f9f9f9;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+
+        .container {
+            width: 80%;
+            margin: 20px auto;
+            background-color: #fff;
+            padding: 20px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+        }
+
+        h1 {
+            text-align: center;
+            color: #2E8B57;
+            font-size: 32px;
+        }
+
+        p.instructions {
+            font-size: 18px;
+            line-height: 1.6;
+            margin-bottom: 20px;
+            color: #555;
+        }
+
+        .navigation {
+            text-align: center;
+            margin: 20px 0;
+        }
+
+        .navigation a {
+            text-decoration: none;
+            color: #007BFF;
+            font-size: 16px;
+            margin: 0 10px;
+        }
+
+        .navigation a:hover {
+            text-decoration: underline;
+        }
+
+        .question {
+            margin: 20px 0;
+            font-size: 20px;
+        }
+
+        .question a {
+            text-decoration: none;
+            color: #d9534f;
+            margin-left: 10px;
+        }
+
+        .question a:hover {
+            text-decoration: underline;
+        }
+
+        .answer {
+            margin: 20px 0;
+            font-size: 18px;
+        }
+
+        .answer a {
+            text-decoration: none;
+            color: #5bc0de;
+            margin-left: 10px;
+        }
+
+        .answer a:hover {
+            text-decoration: underline;
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 40px;
+            font-size: 16px;
+            color: #999;
+        }
+
+        .footer-link {
+            text-decoration: none;
+            color: #007BFF;
+        }
+
+        .footer-link:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+<h3>M.S.YASHMITHA<h3>
+<h3>23MIS0265<h3>
+        <h1>Math Quiz</h1>
+
+        <p class="instructions">
+            Welcome to the Math Quiz! This quiz contains 10 questions. You need to answer at least 7 correctly to pass. 
+            Click on each question to jump to its answer at the bottom of the page, and click on the answer to jump back to the question.
+        </p>
+
+        <div class="navigation">
+            <a href="#answers">Go to Answers</a>
+        </div>
+
+        <div class="questions">
+            <div class="question" id="q1">
+                <strong>Question 1:</strong> What is 5 + 7? 
+                <a href="#a1">Answer</a>
+            </div>
+            <div class="question" id="q2">
+                <strong>Question 2:</strong> What is 9 x 3? 
+                <a href="#a2">Answer</a>
+            </div>
+            <div class="question" id="q3">
+                <strong>Question 3:</strong> What is 15 / 3? 
+                <a href="#a3">Answer</a>
+            </div>
+            <div class="question" id="q4">
+                <strong>Question 4:</strong> What is 7 - 4? 
+                <a href="#a4">Answer</a>
+            </div>
+            <div class="question" id="q5">
+                <strong>Question 5:</strong> What is 8 x 2? 
+                <a href="#a5">Answer</a>
+            </div>
+            <div class="question" id="q6">
+                <strong>Question 6:</strong> What is 12 + 8? 
+                <a href="#a6">Answer</a>
+            </div>
+            <div class="question" id="q7">
+                <strong>Question 7:</strong> What is 20 - 13? 
+                <a href="#a7">Answer</a>
+            </div>
+            <div class="question" id="q8">
+                <strong>Question 8:</strong> What is 6 x 6? 
+                <a href="#a8">Answer</a>
+            </div>
+            <div class="question" id="q9">
+                <strong>Question 9:</strong> What is 10 + 15? 
+                <a href="#a9">Answer</a>
+            </div>
+            <div class="question" id="q10">
+                <strong>Question 10:</strong> What is 18 - 7? 
+                <a href="#a10">Answer</a>
+            </div>
+        </div>
+
+        <div id="answers">
+            <h2>Answers</h2>
+            <div class="answer" id="a1">
+                <strong>Answer 1:</strong> 12 
+                <a href="#q1">Back to Question 1</a>
+            </div>
+            <div class="answer" id="a2">
+                <strong>Answer 2:</strong> 27 
+                <a href="#q2">Back to Question 2</a>
+            </div>
+            <div class="answer" id="a3">
+                <strong>Answer 3:</strong> 5 
+                <a href="#q3">Back to Question 3</a>
+            </div>
+            <div class="answer" id="a4">
+                <strong>Answer 4:</strong> 3 
+                <a href="#q4">Back to Question 4</a>
+            </div>
+            <div class="answer" id="a5">
+                <strong>Answer 5:</strong> 16 
+                <a href="#q5">Back to Question 5</a>
+            </div>
+            <div class="answer" id="a6">
+                <strong>Answer 6:</strong> 20 
+                <a href="#q6">Back to Question 6</a>
+            </div>
+            <div class="answer" id="a7">
+                <strong>Answer 7:</strong> 7 
+                <a href="#q7">Back to Question 7</a>
+            </div>
+            <div class="answer" id="a8">
+                <strong>Answer 8:</strong> 36 
+                <a href="#q8">Back to Question 8</a>
+            </div>
+            <div class="answer" id="a9">
+                <strong>Answer 9:</strong> 25 
+                <a href="#q9">Back to Question 9</a>
+            </div>
+            <div class="answer" id="a10">
+                <strong>Answer 10:</strong> 11 
+                <a href="#q10">Back to Question 10</a>
+            </div>
+        </div>
+
+        <div class="navigation">
+            <a href="#top">Go to Top</a>
+        </div>
+    </div>
+
+    <footer>
+        <p>Good luck with the quiz! <a href="#top" class="footer-link">Back to top</a></p>
+    </footer>
+
+</body>
+</html>
+
